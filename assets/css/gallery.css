@@ -6,10 +6,23 @@
 
 
 .celu{
-	height: 20px;
+	height: 25px;
 	background-color: #3F3F3F;
+	display: inline-block;
+	color: white;
+	padding-top: 5px;
 }
 
+.wifi{
+	display: inline-flex;
+}
+.wifi i{
+	padding: 0 2px;
+}
+
+.hora p{
+	text-align: center;
+}
 
 /*------------------ SECTION CAJAS ------------------*/
 .el-collage{
