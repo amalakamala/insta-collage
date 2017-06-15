@@ -2,9 +2,81 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Hola</title>
+	<title>GALLERY</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,900" rel="stylesheet">
+    <!-- Linkear Font Awesome -->
+    <script src="https://use.fontawesome.com/6bff936249.js"></script>
+    <!-- CDN bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<link rel="stylesheet" href="assets/css/gallery.css">
 </head>
 <body>
-	<p>HOLA</p>
+
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 celu"></div>
+		</div>	
+	</section>
+
+
+	<section class="container">
+		<div class="row el-collage">
+			<div class="col-sm-6 col-xs-6">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12 caja" id="contiene" ondrop="drop(event)" ondragover="finalDrop(event)">
+								
+					</div>
+					<div class="col-sm-12 col-xs-12 caja" id="contiene2" ondrop="drop(event)" ondragover="finalDrop(event)">
+								
+					</div>
+				</div>		
+			</div>
+			<div class="col-sm-6 col-xs-6">
+				<div class="row">
+					<div class="super-caja" id="contiene3" ondrop="drop(event)" ondragover="finalDrop(event)">
+								
+					</div>
+				</div>		
+			</div>			
+		</div>
+	</section>
+
+
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 fondo text-center">
+				<p><i class="fa fa-instagram" aria-hidden="true"></i>    PHOTO BOOTH</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-4 col-xs-4 text-center colm-dog">
+
+				<img src="assets/img/dog-1.jpg" alt="" ondragstart="drag(event)" id="dog1">
+				<img src="assets/img/dog-2.jpg" alt="" ondragstart="drag(event)" id="dog2">
+				<img src="assets/img/dog-3.jpg" alt="" ondragstart="drag(event)" id="dog3">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center colm-dog">
+				<img src="assets/img/dog-4.jpg" alt="" ondragstart="drag(event)" id="dog4">
+				<img src="assets/img/dog-5.jpg" alt="" ondragstart="drag(event)" id="dog5">
+				<img src="assets/img/dog-6.jpg" alt="" ondragstart="drag(event)" id="dog6">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center colm-dog">
+				<img src="assets/img/dog-7.jpg" alt="" ondragstart="drag(event)" id="dog7">
+				<img src="assets/img/dog-8.jpg" alt="" ondragstart="drag(event)" id="dog8">
+				<img src="assets/img/dog-9.jpg" alt="" ondragstart="drag(event)" id="dog9">
+			</div>			
+		</div>
+	</section>	
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
