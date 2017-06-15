@@ -21,7 +21,7 @@ boton.addEventListener("click", function(){
 	if((password.value == "") || (password.value == 123456) || (password.value.length < 5) || (password.value.length > 7 )) {
 		var respuestaPs = document.createElement("span");  
       	respuestaPs.classList.add("el-span")
-      	var textoPs = document.createTextNode("ingrese un usuario");
+      	var textoPs = document.createTextNode("ingrese un password");
       	respuestaPs.appendChild(textoPs);   
       	passwordOk.appendChild(respuestaPs);
 	}else{
