@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background: linear-gradient(to bottom left,#4DAB7A, #BB6239); /* Standard syntax */
+}
+
+/*------------ IDIOMA ------------*/
+
+.idioma{
+	color: white;
+	padding: 20px 0;
+	font-weight: 200;
+	opacity: 0.9;
+}
+
+
+
+
+
+/*------------ LOGO INICIO ------------*/
+.img-logo{
+	width: 100%;
+}
+
+.img-logo img{
+	width: 200px;
+}
+
+
+/*------------ LOGO e INPUT ------------*/
+.input-group{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.input-group input{
+	background-color: white;
+	border: none;
+	opacity: 0.3;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border: 1 solid #fff;
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);    
+    border-color: #fff;
+    border: 1 solid #fff;    
+}
+
+.olvido-clave{
+	padding: 10px 0;
+	color: white;
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+.olvido-clave a{
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+/*------------------ SECTION INICIO FACEBOOK ------------------*/
+
+.facebook hr{
+	width: 120px;
+	margin: 0 5px;
+}
+
+.decoracion{
+	color: white;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.facebook{
+	padding: 10px;
+}
+
+.facebook a i{
+	font-size: 20px;
+}
+
+.facebook a{
+	color: white;
+	text-decoration: none;
+}
+
+/*------------------ SECTION INICIO FACEBOOK ------------------*/
+
+.regristro{
+	color: white;
+}
+
+.regristro a{
+	color: white;
+	text-decoration: none;
+	font-weight: 600;	
+}
+
+
+/*------------------ SECTION SPAN VALIDAR ------------------*/
+
+.input-group span{
+	margin-top: 20px;
+}
+
+.input-group span:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+}
+
+.el-span {
+	display: block;
+    color: #7F7F7F;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
